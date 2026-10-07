@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>casa Fuego | Restaurante</title>
+        <meta name="description" content="Conoce el menú, los horarios y la ubicación de Casa Fuego.">
+        <style>
+            body {
+                background-color: #111111;
+                color: white;
+                font-family: Arial, sans-serif;
+                padding: 30px;
+                max-width: 900px;
+                margin: 0 auto;
+            }
+            h1 {
+                text-align: center;
+                color: orange;
+                font-size: 50px; 
+            }
+            h2 {
+                color: orange;
+                font-size: 30px;
+            }
+            h3{
+                color: orange;
+                font-size: 24px
+            }
+            p {
+                font-size: 18px;
+                line-height: 1.6;
+            }
+            .plato {
+                background-color: #222222;
+                padding: 20px;
+                margin-bottom: 20px;
+                border-radius: 12px;
+                border: 1px solid orange;
+
+            }
+            .precio {
+                color: orange;
+                font-weight: bold;
+                font-size: 22px;
+            }
+            a {
+    display: inline-block;
+    background-color: orange;
+    color: #111111;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #ffbf47;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+@media (max-width: 600px) {
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    nav a {
+        font-size: 16px;
+        padding: 10px 14px;
+    }
+}footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid orange;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+    color: #cccccc;
+}
+.plato img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+        </style>
+    </head>
+    <body>
+        <nav>
+    <a href="#menu">Menú</a>
+    <a href="#horarios">Horarios</a>
+    <a href="#ubicacion">Ubicación</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+        <h1>
+            Casa Fuego
+        </h1>
+        <p>
+            Comida hecha con fuego y pasion.
+        </p>
+        <h2 id="menu">Menú</h2>
+        <div class="plato">
+        <h3>Steak Fuego</h3>
+        <img src="Imagenes/steak.webp" alt="Steak con arroz y vegetales" width="300">
+        <p>Grilled steak with rice and vegetables.</p>
+        <p class="precio">$30.00</p>
+        </div>
+        <div class="plato">
+        <h3>Fire chicken</h3>
+        <img src="Imagenes/pollo fire.jpeg" alt="Fire chicken" width="300">
+        <p>Grilled chicken with smoky spices, served with rice and roasted vegetables.</p>
+        <p class="precio">$18.00</p>
+        </div>
+        <div class="plato">
+        <h3>Fuego Burger</h3>
+        <img src="Imagenes/Cheeseburger.jpg" alt="Fuego Burger" width="300">
+        <p>Grilled berger with chedar cheese, lettuce, tomato and smoky sauce, served with fries.</p>
+        <p class="precio">$16.00</p>
+        </div>
+        <h2 id="horarios">Horarios</h2>
+        <p>lunes a jueves: 12:00 p. m. a 9:00 p. m</p>
+        <p>viernes y sabado: 12:00 p. m. a 10:00 p. m.</p>
+        <p>domingo: cerrado.</p>
+        <h2 id="ubicacion">Ubicación</h2>
+        <p>Alexandria, Virginia.</p>
+        <p>Direccion del restaurante: por confirmar.</p>
+        <a href="https://www.google.com/maps/search/?api=1&query=Alexandria%2c%20Virginia">
+            ver ubicacion en el mapa
+        </a>
+        <h2 id="contacto">Contacto</h2>
+<p>Teléfono: por confirmar.</p>
+<p>Correo electrónico: por confirmar.</p>
+<footer>
+    <p>Sitio de demostración. Casa Fuego es un restaurante ficticio.</p>
+    <p>© 2026 Casa Fuego. Todos los derechos reservados.</p>
+</footer>
+    </body>
+</html> 
